@@ -1,8 +1,8 @@
 import { invoke, PermissionState } from "@tauri-apps/api/core";
 
 export async function checkPermissions(): Promise<PermissionState> {
-	return await invoke<{ status: PermissionState }>("plugin:usagestats|check_permissions").then(
-		(r) => r.status,
+	return await invoke<{ state: PermissionState }>("plugin:usagestats|check_permissions").then(
+		(r) => r.state,
 	);
 }
 
