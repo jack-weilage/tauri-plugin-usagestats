@@ -1,0 +1,7 @@
+[default]
+description = "Default permissions for the plugin"
+permissions = [
+	"allow-check-permissions",
+	"allow-request-permissions",
+	"allow-get-stats-for-range",
+]

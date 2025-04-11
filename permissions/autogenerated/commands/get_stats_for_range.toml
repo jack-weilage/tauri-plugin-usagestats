@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-get-stats-for-range"
+description = "Enables the get_stats_for_range command without any pre-configured scope."
+commands.allow = ["get_stats_for_range"]
+
+[[permission]]
+identifier = "deny-get-stats-for-range"
+description = "Denies the get_stats_for_range command without any pre-configured scope."
+commands.deny = ["get_stats_for_range"]
