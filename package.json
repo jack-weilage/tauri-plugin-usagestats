@@ -1,6 +1,6 @@
 {
 	"name": "tauri-plugin-usagestats-api",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Jack Weilage",
 	"description": "A Tauri plugin to interact with the Android UsageStats API",
 	"type": "module",

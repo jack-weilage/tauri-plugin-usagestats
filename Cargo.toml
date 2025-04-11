@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-usagestats"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jack Weilage"]
 description = "A Tauri plugin to interact with the Android UsageStats API"
 license = "MIT OR Apache-2.0"
